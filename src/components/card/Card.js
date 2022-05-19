@@ -13,7 +13,7 @@ const Card = (props) => {
           <h5 class="card-title">{props.title}</h5>
           <p class="card-text">{props.desc}</p>
           <div className="cardButton">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-secondary">
               JOIN
             </button>
           </div>
