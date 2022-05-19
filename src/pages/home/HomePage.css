@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+}
+.backgroundBody
+{
+    /* background: rgb(208,45,205);
+    background: linear-gradient(90deg, rgba(208,45,205,1) 0%, rgba(209,49,233,1) 41%, rgba(137,28,215,1) 100%); */
+    /* background-color: rgb(196, 140, 247); */
+    height:100vh;
+}
+.leftPanel
+{
+    min-height: 100vh;
+    height: "fit-content";
+    width: 15vw;
+    background-color: rgb(242, 247, 249);
+}
+.rightPanel
+{
+    min-height: 63vh;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    height: "fit-content";
+    overflow-y: scroll;
+    justify-content: center;
+    width: 85vw;
+}
+.heading1{
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(10, 27, 120);
+}
+.styleCardDiv{
+    display: flex;
+    flex:12 ;
+    margin: 35px 35px;
+    justify-content: flex-start;
+    /* margin-bottom: 10px; */
+    flex-wrap: wrap;
+}
